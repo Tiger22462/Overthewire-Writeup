@@ -1,25 +1,24 @@
-# Tab, Tab, Attack
+# Getting start with bandit!
 
-## Overview
+## Level Goal
 
-Points: 20
-Category: General Skills
+The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
 
-## Description
+## How to solve
 
-Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames: [Addadshashanammu.zip](./Addadshashanammu.zip)
+![img](img/Bandit0_1.png)
 
-## Hints
+we use ssh command to remote login with username is bandit0 and password also bandit0
 
-After `unzip`ing, this problem can be solved with 11 button-presses...(mostly Tab)...
+```console
+ssh -l bandit0 -p 2220 bandit.labs.overthewire.org
+```
 
-## Approach
-
-Um. There really isn't that many files. Unzip everything then have fun navigating using `ls` to list the folders/files and `cd <foldername>` to navigate there. Eventually there will be an [ELF file](./fang-of-haynekhtnamet) which named `fang-of-haynekhtnamet`
-`./fang-of-haynekhtnamet` to run it.
-It outputs:
-`*ZAP!* picoCTF{l3v3l_up!_t4k3_4_r35t!_524e3dc4}`
+![](img/Bandit0_2.png)
+```console
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+```
 
 ## Flag
 
-picoCTF{l3v3l_up!_t4k3_4_r35t!_524e3dc4}
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
