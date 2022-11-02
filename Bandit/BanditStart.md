@@ -8,7 +8,7 @@ The goal of this level is for you to log into the game using SSH. The host to wh
 
 ![img](img/Bandit0_1.png)
 
-we use ssh command to remote login with username is bandit0 and password also bandit0
+we use ssh command to remote login with Username "bandit0" and Password "bandit0"
 
 ```console
 ssh -l bandit0 -p 2220 bandit.labs.overthewire.org
