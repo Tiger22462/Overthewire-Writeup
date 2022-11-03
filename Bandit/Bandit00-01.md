@@ -1,4 +1,4 @@
-# Bandit0
+# Bandit00-01
 
 ## Level Goal
 
