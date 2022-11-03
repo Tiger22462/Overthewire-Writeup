@@ -19,6 +19,3 @@ ssh -l bandit0 -p 2220 bandit.labs.overthewire.org
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
-## Flag
-
-NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
