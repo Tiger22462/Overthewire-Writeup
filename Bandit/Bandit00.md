@@ -1,4 +1,4 @@
-# Getting start with bandit!
+# Bandit00
 
 ## Level Goal
 
